@@ -1,5 +1,7 @@
 import 'package:the_adventure_rpg/core/domain/entities/base_entity.dart';
 
+import 'wallet_entity.dart';
+
 class PlayerEntity extends BaseEntity {
   late Inventory inventory;
   late Wallet wallet;
